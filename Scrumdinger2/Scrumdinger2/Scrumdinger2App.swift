@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct ScrumdingerApp: App {
+struct Scrumdinger2App: App {
     var body: some Scene {
         WindowGroup {
             MeetingView()
