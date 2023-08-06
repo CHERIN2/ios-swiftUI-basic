@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2E3EA52A7F89FB008AD1C6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E3EA42A7F89FB008AD1C6 /* Theme.swift */; };
+		1B2E3EA72A7F8A7F008AD1C6 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E3EA62A7F8A7F008AD1C6 /* DailyScrum.swift */; };
+		1B2E3EA92A7FBB20008AD1C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E3EA82A7FBB20008AD1C6 /* CardView.swift */; };
+		1B2E3EAB2A7FCE29008AD1C6 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E3EAA2A7FCE29008AD1C6 /* TrailingIconLabelStyle.swift */; };
+		1B2E3EAD2A7FD018008AD1C6 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E3EAC2A7FD018008AD1C6 /* ScrumsView.swift */; };
 		AAAE8020294793AB0099DABC /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */; };
 		AAAE8022294793AB0099DABC /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE8021294793AB0099DABC /* MeetingView.swift */; };
 		AAAE8024294793AB0099DABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8023294793AB0099DABC /* Assets.xcassets */; };
 		AAAE8027294793AB0099DABC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8026294793AB0099DABC /* Preview Assets.xcassets */; };
-		AAAE8031294795050099DABC /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8030294795050099DABC /* SampleCode.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B2E3EA42A7F89FB008AD1C6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1B2E3EA62A7F8A7F008AD1C6 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		1B2E3EA82A7FBB20008AD1C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1B2E3EAA2A7FCE29008AD1C6 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		1B2E3EAC2A7FD018008AD1C6 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		AAAE801C294793AB0099DABC /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		AAAE8021294793AB0099DABC /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		AAAE8023294793AB0099DABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAAE8026294793AB0099DABC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AAAE802D2947945C0099DABC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AAAE802E2947949E0099DABC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LICENSE; sourceTree = "<group>"; };
-		AAAE8030294795050099DABC /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,13 +42,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BBF338C2A73AA6E00F0E769 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B2E3EA42A7F89FB008AD1C6 /* Theme.swift */,
+				1B2E3EA62A7F8A7F008AD1C6 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AAAE8013294793AB0099DABC = {
 			isa = PBXGroup;
 			children = (
-				AAAE802D2947945C0099DABC /* README.md */,
 				AAAE801E294793AB0099DABC /* Scrumdinger */,
-				AAAE802F294794D40099DABC /* Configuration */,
-				AAAE802E2947949E0099DABC /* LICENSE */,
 				AAAE801D294793AB0099DABC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,8 +70,12 @@
 		AAAE801E294793AB0099DABC /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				1BBF338C2A73AA6E00F0E769 /* Models */,
 				AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */,
 				AAAE8021294793AB0099DABC /* MeetingView.swift */,
+				1B2E3EA82A7FBB20008AD1C6 /* CardView.swift */,
+				1B2E3EAC2A7FD018008AD1C6 /* ScrumsView.swift */,
+				1B2E3EAA2A7FCE29008AD1C6 /* TrailingIconLabelStyle.swift */,
 				AAAE8023294793AB0099DABC /* Assets.xcassets */,
 				AAAE8025294793AB0099DABC /* Preview Content */,
 			);
@@ -72,14 +88,6 @@
 				AAAE8026294793AB0099DABC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		AAAE802F294794D40099DABC /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				AAAE8030294795050099DABC /* SampleCode.xcconfig */,
-			);
-			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +118,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					AAAE801B294793AB0099DABC = {
 						CreatedOnToolsVersion = 14.1;
@@ -141,7 +149,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAE8027294793AB0099DABC /* Preview Assets.xcassets in Resources */,
-				AAAE8031294795050099DABC /* SampleCode.xcconfig in Resources */,
 				AAAE8024294793AB0099DABC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2E3EA72A7F8A7F008AD1C6 /* DailyScrum.swift in Sources */,
+				1B2E3EAB2A7FCE29008AD1C6 /* TrailingIconLabelStyle.swift in Sources */,
+				1B2E3EA52A7F89FB008AD1C6 /* Theme.swift in Sources */,
+				1B2E3EAD2A7FD018008AD1C6 /* ScrumsView.swift in Sources */,
 				AAAE8022294793AB0099DABC /* MeetingView.swift in Sources */,
 				AAAE8020294793AB0099DABC /* ScrumdingerApp.swift in Sources */,
+				1B2E3EA92A7FBB20008AD1C6 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +175,6 @@
 /* Begin XCBuildConfiguration section */
 		AAAE8028294793AB0099DABC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAAE8030294795050099DABC /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -198,6 +209,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -224,7 +236,6 @@
 		};
 		AAAE8029294793AB0099DABC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAAE8030294795050099DABC /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -259,6 +270,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -279,7 +291,6 @@
 		};
 		AAAE802B294793AB0099DABC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAAE8030294795050099DABC /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -308,7 +319,6 @@
 		};
 		AAAE802C294793AB0099DABC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAAE8030294795050099DABC /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
